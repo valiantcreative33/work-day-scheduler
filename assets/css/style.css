@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
-textarea{
+textarea {
   background: transparent;
   border: none;
   resize: none;
@@ -22,12 +22,19 @@ textarea{
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
-}
-.description{
-  white-space: pre-wrap;
+  line-height: 3em;
 }
 
-.time-block{
+.calendar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.description {
+  white-space: pre-wrap;
+} 
+
+.time-block {
   text-align: center;
   align-self: center;
   border-radius: 15px;
@@ -36,8 +43,8 @@ textarea{
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+  height: 75px;
+  border-top: 1px solid white;
 }
 .hour {
   background-color: #ffffff;
@@ -53,7 +60,7 @@ textarea{
   color: white;
 }
 .future {
-  background-color: #77dd77;
+  background-color: #67ee67;
   color: white;
 }
 .saveBtn {
@@ -61,7 +68,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #15c1e7;
   color: white;
 }
 .saveBtn:focus {
