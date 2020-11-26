@@ -47,7 +47,7 @@ $(".save-btn").on("click", function() {
     var textArea = $(this).closest(".time-slot").find(".form-control")
 
     // updates task text
-    var text = textArea.val().trim();
+    var text = textArea.val() || '';
 
     var taskP = $("<div>")
         .addClass("col-10 time-block")
